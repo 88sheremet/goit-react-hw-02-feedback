@@ -19,6 +19,7 @@ export class App extends Component {
           return { neutral: prevState.neutral + 1 };
         case 'bad':
           return { bad: prevState.bad + 1 };
+          default : return 0
       }
     });
   };
