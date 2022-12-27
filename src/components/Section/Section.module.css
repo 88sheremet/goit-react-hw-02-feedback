@@ -1,0 +1,7 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  align-items: center;
+}
